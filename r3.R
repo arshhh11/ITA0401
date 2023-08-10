@@ -1,12 +1,9 @@
-sonar_df <- data.frame(
-  ID = c(1, 2, 3, 4, 5),
-  NAME = c("John", "Jane", "Bob", "Alice", "Mark"),
-  OCCUPATION = c("Engineer", "Manager", "Technician", "co-worker", "Sales"),
-  EMPLOYEE = c("Full-time", "Part-time", "Full-time", "Full-time", "Part-time")
-)
-str(sonar_df)
-summary(sonar_df)
-occ<-sonar_df$OCCUPATION
-print(occ)
-sonar_df$SALARY<-c(50000,60000,70000,40000,55000)
-print(sonar_df)
+numbers_seq <- 20:50
+
+mean_20_to_60 <- mean(20:60)
+
+sum_51_to_91 <- sum(51:91)
+
+cat("Sequence of numbers from 20 to 50:", numbers_seq, "\n")
+cat("Mean of numbers from 20 to 60:", mean_20_to_60, "\n")
+cat("Sum of numbers from 51 to 91:", sum_51_to_91, "\n")

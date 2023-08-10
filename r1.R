@@ -1,10 +1,4 @@
-mat1<-matrix(c(1,2,3,4,5,6,7,8),nrow=4,ncol=2)
-mat2<-matrix(c(9,10,11,12,13,14,15,16),nrow=4,ncol=2)
-print(mat1)
-print(mat2)
-addit<-mat1+mat2
-subr<-mat1-mat2
-mult<-mat1*mat2
-print(addit)
-print(subr)
-print(mult)
+name = readline(prompt="Input your name: ")
+age =  readline(prompt="Input your age: ")
+print(paste("My name is",name, "and I am",age ,"years old."))
+print(R.version.string)
